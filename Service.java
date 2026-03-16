@@ -1,6 +1,6 @@
 package Hotel;
 public abstract class Service{
-//---Attributes---
+//---Attributes----
     private String seviceId;
     private String serviceDescription;
     private double servicePrice;
