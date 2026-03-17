@@ -1,5 +1,5 @@
 package HotelExceptions;
-
+//
 public class HotelExceptions {
 
 public class RoomAlreadyBookedException extends Exception {
