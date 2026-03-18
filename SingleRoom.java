@@ -69,7 +69,7 @@ public String getBalconyDescription() {
 }
 
 
-s
+
 public double calculateLongStayDiscount(int nights) {
     if (nights >= 7)
         return getPricePerNight() * nights * 0.90;
