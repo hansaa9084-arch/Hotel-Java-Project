@@ -1,4 +1,4 @@
-package HotelExceptions;
+package Hotel;
 //
 public class HotelExceptions {
 
