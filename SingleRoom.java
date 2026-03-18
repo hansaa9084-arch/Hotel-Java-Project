@@ -38,13 +38,8 @@ public class SingleRoom extends Room {
         System.out.println("Has Balcony   : " + hasBalcony);
     }
 
-    // Override displayInfo() 
 
-    @Override
-    public void displayInfo() {
-        super.displayInfo();
-        System.out.println("Has Balcony   : " + hasBalcony);
-    }
+   
 
 
 public void checkBalconyView() {
@@ -56,8 +51,8 @@ public void checkBalconyView() {
 }
 
 
-public double applyDiscount(double discountPercent) {
-    return getPricePerNight() - (getPricePerNight() * discountPercent / 100);
+public double applyRoomDiscount(double applyRoomDiscount) {
+    return getPricePerNight() - (getPricePerNight() * applyRoomDiscount / 100);
 }
 
 

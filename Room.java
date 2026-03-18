@@ -54,16 +54,11 @@ public abstract class Room {
 
     // Abstract method 
 
-    public abstract void getDetails();
+    public abstract void Details();
 
     // Concrete method 
 
-    public void displayInfo() {
-        System.out.println("Room Number : " + roomNumber);
-        System.out.println("Room Type   : " + roomType);
-        System.out.println("Price/Night : $" + pricePerNight);
-        System.out.println("Available   : " + isAvailable);
-    }
+   
 
 
 public void resetRoom() {

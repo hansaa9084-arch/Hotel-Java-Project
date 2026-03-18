@@ -47,15 +47,6 @@ public class Suite extends Room {
         System.out.println("Number of Rooms: " + numberOfRooms);
     }
 
-    // Override displayInfo() 
-
-    @Override
-    public void displayInfo() {
-        super.displayInfo();
-        System.out.println("Has Jacuzzi    : " + hasJacuzzi);
-        System.out.println("Number of Rooms: " + numberOfRooms);
-    }
-
 
 public void displaySuiteFeatures() {
     System.out.println("Has Jacuzzi: " + hasJacuzzi);
@@ -64,8 +55,8 @@ public void displaySuiteFeatures() {
 
 
 
-public double applyDiscount(double discountPercent) {
-    return getPricePerNight() - (getPricePerNight() * discountPercent / 100);
+public double applyRoomDiscount(double applyRoomDiscount) {
+    return getPricePerNight() - (getPricePerNight() * applyRoomDiscount / 100);
 }
 
 public double calculateTotalRoomsPrice() {
